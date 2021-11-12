@@ -1,0 +1,18 @@
+name: "Hello Action"
+description: "Greet someone"
+autor: "sagarmedtiya@gmail.com"
+
+inputs:
+MY_NAME: 
+        description: "who to greet"
+        required: true
+        default: "world"
+        
+runs:
+     using: "docker"
+     image: "Dockerfile"
+     
+     
+branding:
+          icon:"mac"
+          color: "purple"
